@@ -1,0 +1,30 @@
+.filtered-expense {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+  background: darkgray;
+
+  border-radius: 15px;
+  border: 2px white solid;
+}
+
+.filtered-expense h3 {
+  font-size: 1.5em;
+}
+
+.filtered-expense select {
+  height: 2.5em;
+  width: 10em;
+
+  font-size: 1.3rem;
+  text-align: center;
+
+  background: violet;
+
+  border: 2px black solid;
+  border-radius: 15px;
+}

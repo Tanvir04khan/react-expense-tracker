@@ -1,0 +1,15 @@
+.bars {
+  display: flex;
+
+  margin: 0 auto;
+
+  max-width: 1000px;
+
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: gray;
+
+  border: 2px white solid;
+  border-radius: 15px;
+}

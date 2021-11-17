@@ -1,0 +1,43 @@
+.expense-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+  border-radius: 15px;
+
+  background: darkgray;
+}
+
+.expense-title {
+  font-size: 1.3rem;
+  text-align: center;
+
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+.expense-amount {
+  font-size: 1.4rem;
+  color: white;
+  text-align: center;
+
+  height: 2rem;
+  width: 4rem;
+
+  margin: 0.5rem;
+  padding: 0.3rem;
+
+  border: 1px white solid;
+  border-radius: 15px;
+
+  background: violet;
+}
+
+@media screen and (max-width: 450px) {
+  .expense-content {
+    flex-direction: column;
+  }
+}

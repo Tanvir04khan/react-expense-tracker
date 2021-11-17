@@ -1,0 +1,32 @@
+.new-expense__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-expense__input {
+  margin: 0.2rem;
+  padding: 0.2rem;
+
+  background: gray;
+
+  width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-expense__input label {
+  margin: 0.3rem;
+  padding: 0.2rem;
+
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.new-expense__input input {
+  margin: 1rem;
+
+  width: 15rem;
+  height: 1.5rem;
+}

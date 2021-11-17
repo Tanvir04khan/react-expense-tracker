@@ -1,0 +1,29 @@
+.outest {
+  margin: 0.6rem;
+  padding: 0.5rem;
+}
+
+.out {
+  background-color: lightgray;
+
+  position: relative;
+
+  height: 15rem;
+  width: 1rem;
+
+  overflow: hidden;
+
+  border-radius: 0.5rem;
+}
+
+.inner {
+  width: 1em;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.month {
+  font-weight: 600;
+}

@@ -1,0 +1,22 @@
+.main-content {
+  background: gray;
+
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+
+  max-width: 1000px;
+
+  border-radius: 15px;
+}
+
+.no-expenses {
+  font-size: 1.7rem;
+  text-align: center;
+
+  margin: 2rem;
+  padding: 1rem;
+
+  background: gray;
+
+  border-radius: 15px;
+}
